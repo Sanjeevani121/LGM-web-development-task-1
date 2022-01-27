@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>Cafe Coffee Day</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet">
+<link rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  <img src="C:\Users\sanjeevanishingate\Desktop\cafe image 4.jpg">
+  min-height:75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="top">
+  <div class="row padding black">
+    <div class="col s3">
+      <a href="#" class="button block black">HOME</a>
+    </div>
+    <div class="col s3">
+      <a href="#about" class="button block black">ABOUT</a>
+    </div>
+    <div class="col s3">
+      <a href="#menu" class="button block black">MENU</a>
+    </div>
+    <div class="col s3">
+      <a href="#where" class="button block black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg display-container grayscale-min" id="home">
+  <div class="display-bottomleft center padding-large hide-small">
+    <span class="tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="display-middle center">
+    <span class="text-white" style="font-size:50px">Cafe Coffee Day</span>
+  </div>
+  <div class="display-bottomright center padding-large">
+    <span class="text-black">Pimple Saudagar, Near Shivaar Garden,Pune</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="sand grayscale large">
+
+<!-- About Container -->
+<div class="container" id="about">
+  <div class="content" style="max-width:700px">
+    <h5 class="center padding-64"><span class="tag wide">ABOUT THE CAFE</span></h5>
+    <p>Cafe Coffee Day, a part of Coffee Day Global Limited, is India's favourite hangout for coffee and conversations. Popularly known as CCD, we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 1996 at Brigade Road in Bangalore the youth and the young at heart immediately took to the cafe, and it continues to be one of the most happening places in the city. CCD to the youth is a "hangout" spot where they meet people, make conversations, and have a whole lot of fun over steaming cups of great coffee.It's been an exciting journey since then to becoming the largest organised retail cafe chain in the country. We're also present in Austria, Czech Republic and Malaysia, so if your travel takes you there, do stop by our outlets to get a taste from back home!</p>
+    <div class="panel leftbar light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <img src="C:\Users\sanjeevanishingate\Desktop\cafe image.jpg" style="width:70%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong>Pimple Saudagar, Near Shivaar Garden,Pune</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="container" id="menu">
+  <div class="content" style="max-width:700px">
+ 
+    <h5 class="center padding-48"><span class="tag wide">THE MENU</span></h5>
+  
+    <div class="row center card padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="container menu padding-48 card">
+      <h5>Bread Basket</h5>
+      <p class="text-grey">Assortment of fresh baked fruit breads and muffins (Rs-50/-)</p><br>
+    
+      <h5>Honey Almond Granola with Fruits</h5>
+      <p class="text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates (Rs-250/-)</p><br>
+    
+      <h5>Belgian Waffle</h5>
+      <p class="text-grey">Vanilla flavored batter with malted flour (Rs-200/-)</p><br>
+    
+      <h5>Scrambled eggs</h5>
+      <p class="text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions (Rs-100/-)</p><br>
+    
+      <h5>Blueberry Pancakes</h5>
+      <p class="text-grey">With syrup, butter and lots of berries (Rs-50/-)</p>
+    </div>
+
+    <div id="Drinks" class="container menu padding-48 card">
+      <h5>Coffee</h5>
+      <p class="text-grey">Regular coffee (Rs-25/-)</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="text-grey">Chocolate espresso with milk (Rs-100/-)</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="text-grey">Whiskey and coffee (Rs-150/-)</p><br>
+    
+      <h5>Iced tea</h5>
+      <p class="text-grey">Hot tea, except not hot (Rs-80/-)</p><br>
+    
+      <h5>Soda</h5>
+      <p class="text-grey">Coke, Sprite, Fanta, etc. (Rs-20/-)</p>
+    </div>  
+    <img src="C:\Users\sanjeevanishingate\Desktop\cafe image 4.jpg" style="width:70%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="container" id="where" style="padding-bottom:32px;">
+  <div class="content" style="max-width:700px">
+    <h5 class="center padding-48"><span class="tag wide">WHERE TO FIND US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <img src="C:\Users\sanjeevanishingate\Desktop\cafe image 3.jpg" class="image" style="width:100%">
+    <p><span class="tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="input padding-16 border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="input padding-16 border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="input padding-16 border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="button black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="center light-grey padding-48 large">
+   <title="CSS" target="_blank" class="hover-text-green">css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
